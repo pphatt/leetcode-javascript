@@ -11,7 +11,8 @@ const lengthOfLongestSubstring = function(s) {
     }
 
     for(let i = 0; i < s.length; i++) {
-        // if(s[i] )
+        if(!num.includes(s[i])) {
+            num.push(s[i])
+        }
     }
-
 };
